@@ -27,16 +27,6 @@ let () = describe("Fake Timers", () => {
     expect((before, flag.contents)) == (false, true)
   })
 
-  test("runAllImmediates ", () => {
-    let flag = ref(false)
-    Jest.useFakeTimers(~implementation=#legacy, ())
-    setImmediate(() => flag := true)
-    let before = flag.contents
-    Jest.runAllImmediates()
-
-    expect((before, flag.contents)) == (false, true)
-  })
-
   test("runTimersToTime", () => {
     let flag = ref(false)
     Jest.useFakeTimers(~implementation=#legacy, ())

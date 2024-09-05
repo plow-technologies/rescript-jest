@@ -482,7 +482,6 @@ module Jest = {
   @val external clearAllTimers: unit => unit = "jest.clearAllTimers"
   @val external runAllTicks: unit => unit = "jest.runAllTicks"
   @val external runAllTimers: unit => unit = "jest.runAllTimers"
-  @val external runAllImmediates: unit => unit = "jest.runAllImmediates"
   @val external runTimersToTime: int => unit = "jest.runTimersToTime"
   @val external advanceTimersByTime: int => unit = "jest.advanceTimersByTime"
   @val external runOnlyPendingTimers: unit => unit = "jest.runOnlyPendingTimers"
