@@ -32,10 +32,10 @@
     "bsconfig.json"
   ],
   "devDependencies": {
-    "@babel/core": "^7.15.8",
-    "@babel/preset-env": "^7.15.8",
+    "@babel/core": "^7.22.10",
+    "@babel/preset-env": "^7.22.10",
     "babel-jest": "^29.7.0",
-    "rescript": "^11.1.0"
+    "rescript": "^11.1.3"
   },
   "dependencies": {
     "jest": "^29.7.0"
